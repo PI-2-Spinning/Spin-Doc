@@ -1,0 +1,30 @@
+# configuration
+
+site_name: Spin Documents
+
+repo_name: "Spin-Doc"
+repo_url: "https://github.com/PI-2-Spinning/Spin-Doc"
+
+theme:
+  name: material
+  language: pt
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+  font:
+    text: Poppins
+    code: Roboto Mono
+    
+markdown_extensions:
+  - pymdownx.highlight
+  - pymdownx.superfences
+
+extra_css:
+  - assets/stylesheets/styles.css
+
+
+# page structure
+
+nav:
+  - Home: index.md
